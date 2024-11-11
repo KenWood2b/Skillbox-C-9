@@ -1,0 +1,7 @@
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\obj\Debug\DeepDiveintoOOPPart1ConsoleApp.csproj.AssemblyReference.cache
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\obj\Debug\DeepDiveintoOOPPart1ConsoleApp.csproj.CoreCompileInputs.cache
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\bin\Debug\DeepDiveintoOOPPart1ConsoleApp.exe.config
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\bin\Debug\DeepDiveintoOOPPart1ConsoleApp.exe
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\bin\Debug\DeepDiveintoOOPPart1ConsoleApp.pdb
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\obj\Debug\DeepDiveintoOOPPart1ConsoleApp.exe
+D:\C#\DeepDiveintoOOPPart1ConsoleApp\DeepDiveintoOOPPart1ConsoleApp\obj\Debug\DeepDiveintoOOPPart1ConsoleApp.pdb
