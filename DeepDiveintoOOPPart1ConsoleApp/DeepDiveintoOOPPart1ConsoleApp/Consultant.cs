@@ -14,7 +14,8 @@ namespace DeepDiveintoOOPPart1ConsoleApp
             Console.WriteLine("Имя: " + client.FirstName);
             Console.WriteLine("Отчество: " + client.MiddleName);
             Console.WriteLine("Номер телефона: " + client.PhoneNumber);
-            Console.WriteLine("Серия, номер паспорта: " + client.PassportNumber);
+            // Используем защищенную версию номера паспорта для консультанта
+            Console.WriteLine("Серия, номер паспорта: " + client.GetProtectedPassportNumber());
         }
 
         public void UpdatePhoneNumber(Client client, string newPhoneNumber, string editorType)

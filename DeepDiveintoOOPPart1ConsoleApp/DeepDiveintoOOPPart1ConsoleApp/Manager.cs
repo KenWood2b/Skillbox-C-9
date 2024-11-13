@@ -19,10 +19,19 @@ namespace DeepDiveintoOOPPart1ConsoleApp
             client.FirstName = firstName;
             client.MiddleName = middleName;
             client.PhoneNumber = phoneNumber;
-            client.PassportNumber = passportNumber;
+            client.SetPassportNumber(passportNumber);
 
             client.UpdateModificationInfo("All Fields", "Полное изменение", editorType);
             Console.WriteLine("Данные клиента успешно обновлены.");
+        }
+
+        public void ViewFullClientInfo(Client client)
+        {
+            Console.WriteLine("Фамилия: " + client.LastName);
+            Console.WriteLine("Имя: " + client.FirstName);
+            Console.WriteLine("Отчество: " + client.MiddleName);
+            Console.WriteLine("Номер телефона: " + client.PhoneNumber);
+            Console.WriteLine("Серия, номер паспорта: " + client.GetFullPassportNumber());
             Console.ReadKey();
         }
     }

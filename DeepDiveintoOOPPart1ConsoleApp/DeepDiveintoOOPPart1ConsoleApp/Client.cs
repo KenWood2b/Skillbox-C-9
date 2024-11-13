@@ -12,7 +12,7 @@ namespace DeepDiveintoOOPPart1ConsoleApp
         public string FirstName { get; internal set; }
         public string MiddleName { get; internal set; }
         public string PhoneNumber { get; set; }
-        public string PassportNumber { get; internal set; }
+        private string PassportNumber { get; set; }  // Установим PassportNumber как приватное
 
         // Дополнительные поля для истории изменений
         public DateTime LastModified { get; private set; }
@@ -26,6 +26,24 @@ namespace DeepDiveintoOOPPart1ConsoleApp
             FirstName = firstName;
             MiddleName = middleName;
             PhoneNumber = phoneNumber;
+            PassportNumber = passportNumber;
+        }
+
+        // Метод для возвращения скрытого паспорта для консультанта
+        public string GetProtectedPassportNumber()
+        {
+            return string.IsNullOrEmpty(PassportNumber) ? "" : "******************";
+        }
+
+        // Метод для получения полного паспорта для менеджера
+        public string GetFullPassportNumber()
+        {
+            return PassportNumber;
+        }
+
+        // Метод для изменения паспорта менеджером
+        public void SetPassportNumber(string passportNumber)
+        {
             PassportNumber = passportNumber;
         }
 
